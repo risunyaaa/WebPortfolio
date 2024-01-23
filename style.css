@@ -8,13 +8,13 @@ body {
     background: white;
     color: #21243D;
     display: block;
-    margin: auto;
-    max-width: 1200px;
-    height: 2000px;
+}
+.wrapper {
 }
 
 .header {
-    background: yellow;
+    margin: auto;
+    max-width: 1400px;
     display: flex;
     justify-content: space-between;
     font-family: Heebo;
@@ -49,6 +49,116 @@ body {
     transition: 0.3s;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a.active {
     color: rgb(247, 108, 8);
+}
+
+.main {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.greetings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin: 100px 50px 50px 100px;
+}
+
+.about-me {
+
+}
+
+.about-me h1 {
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+    max-width: 400px;
+}
+
+.about-me h3 {
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 550px;
+}
+
+
+
+.p-image {
+    width: 420px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 235px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+
+.cv-button {
+    border: solid rgb(233, 82, 23);
+    border-radius: 3px ;
+    background: rgb(247, 108, 8);
+    margin-top: 30px;
+    width: 210px;
+    height: 50px;
+    color: black;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.cv-button:hover {
+    border: solid rgb(247, 108, 8);
+    border-radius: 3px ;
+    background:  white;
+    color: black;
+}
+
+.posts {
+    background: #EDF7FA;
+}
+
+.upper-wrapper {
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-wrapper a.left-text {
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 272.727% */
+}
+
+.upper-wrapper a.link-blog {
+    color: var(--Secondry, #00A8CC);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: end;
+}
+
+.rec-posts {
+    margin: auto;
+    max-width: 1400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
 }
