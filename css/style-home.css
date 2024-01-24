@@ -54,7 +54,7 @@ body {
     color: rgb(247, 108, 8);
 }
 
-.main {
+.main-wrapper {
     max-width: 1400px;
     margin: auto;
 }
