@@ -89,6 +89,7 @@ body {
 
 .post-info {
     display: flex;
+    padding: 10px;
 }
 
 .line {
@@ -113,13 +114,22 @@ body {
     line-height: normal;
 }
 
+.post-text {
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .blog-table p {
     max-width: 1200px;
 }
 
 .footer-wrapper {
     display: block;
-    margin-top: 25px;
+    margin-top: 150px;
     padding-top: 25px;
 }
 
