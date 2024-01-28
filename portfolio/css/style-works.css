@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: #21243d;
+  display: block;
+}
+
+.header {
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Heebo;
+}
+
+.logo {
+  color: var(--Dark-Color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  padding-left: 25px;
+  text-decoration: none;
+  color: #000;
+  text-align: right;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rgb(247, 108, 8);
+}
+
+.main-wrapper {
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.blog-header {
+  color: var(--Dark-Color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+}
+
+.featured-wrapper {
+  margin: auto;
+  margin-top: 150px;
+  max-width: 1400px;
+}
+
+.featured-wrapper a.left-text {
+  color: var(--Dark-Color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+}
+
+.featured-section {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 1400px;
+  display: block;
+}
+
+.work-one,
+.work-two,
+.work-three {
+  display: flex;
+  padding: 15px;
+}
+
+.work-image {
+  width: 246px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.work-info {
+  padding: 15px;
+}
+
+.work-heading {
+  color: var(--Dark-Color, #21243d);
+  font-family: Heebo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0;
+}
+
+.work-properties {
+  display: flex;
+}
+
+.work-date {
+  color: black;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  padding: 15px 15px 15px 0px;
+}
+
+.work-spec {
+  color: var(--Light, #8695a4);
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px 15px 15px 0px;
+}
+
+.work-lorem {
+  color: var(--Dark-Color, #21243d);
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 700px;
+}
+
+.footer-wrapper {
+  display: block;
+  margin-top: 150px;
+  padding-top: 25px;
+}
+
+.links-logos {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.logo-one,
+.logo-two,
+.logo-three,
+.logo-four {
+  padding: 15px;
+}
+
+.copyright {
+  color: var(--Dark, #21243d);
+  text-align: center;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px;
+}
