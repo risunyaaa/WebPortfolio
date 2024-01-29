@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: #21243d;
+  display: block;
+}
+
+.header {
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Heebo;
+}
+
+.logo {
+  color: var(--Dark-Color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  padding-left: 25px;
+  text-decoration: none;
+  color: #000;
+  text-align: right;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rgb(247, 108, 8);
+}
+
+
+.contact-table {
+  margin: 0 auto;
+  margin-top: 150px;
+  max-width: 1400px;
+  display: flex;
+  background-color:#fffffff5;
+}
+
+.contact-table img {
+  padding: 50px;
+  max-width: 600px;
+}
+
+.contact-us {
+  padding: 50px;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.c_header {
+  color: var(--Dark-Color, #21243D);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.b_header {
+  color: var(--Dark-Color, #21243D);
+  font-family: Heebo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.contact-boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.box-text {
+  padding: 15px;
+  color: var(--Dark-Color, #21243D);
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contact-bottom-text {
+  color: var(--Dark-Color, #21243D);
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-wrapper {
+  display: block;
+  margin-top: 150px;
+  padding-top: 25px;
+}
+
+.links-logos {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.logo-one,
+.logo-two,
+.logo-three,
+.logo-four {
+  padding: 15px;
+}
+
+.copyright {
+  color: var(--Dark, #21243d);
+  text-align: center;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px;
+}

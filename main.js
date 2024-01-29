@@ -1,3 +1,5 @@
+//  скрипт для получения cv
+
 document.addEventListener('DOMContentLoaded', function() {
     // Получаем все элементы с классом "cv-button"
     const downloadButtons = document.querySelectorAll('.cv-button');
@@ -21,3 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// скрипт для отправки сообщения 
+
+
