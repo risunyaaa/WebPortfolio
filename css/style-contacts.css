@@ -52,13 +52,12 @@ body {
   color: rgb(247, 108, 8);
 }
 
-
 .contact-table {
   margin: 0 auto;
   margin-top: 150px;
   max-width: 1400px;
   display: flex;
-  background-color:#fffffff5;
+  background-color: #fffffff5;
 }
 
 .contact-table img {
@@ -76,7 +75,7 @@ body {
 }
 
 .c_header {
-  color: var(--Dark-Color, #21243D);
+  color: var(--Dark-Color, #21243d);
   font-family: Heebo;
   font-size: 44px;
   font-style: normal;
@@ -84,7 +83,7 @@ body {
 }
 
 .b_header {
-  color: var(--Dark-Color, #21243D);
+  color: var(--Dark-Color, #21243d);
   font-family: Heebo;
   font-size: 30px;
   font-style: normal;
@@ -99,7 +98,7 @@ body {
 
 .box-text {
   padding: 15px;
-  color: var(--Dark-Color, #21243D);
+  color: var(--Dark-Color, #21243d);
   font-family: Heebo;
   font-size: 16px;
   font-style: normal;
@@ -107,46 +106,12 @@ body {
 }
 
 .contact-bottom-text {
-  color: var(--Dark-Color, #21243D);
+  color: var(--Dark-Color, #21243d);
   font-family: Heebo;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer-wrapper {
   display: block;
