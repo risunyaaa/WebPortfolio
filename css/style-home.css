@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,7 +12,14 @@ body {
   background: white;
   color: #21243d;
   display: block;
+  margin: 0;
 }
+
+.head-wrapper {
+  background-color:#edf7fa;
+  margin: 0;
+}
+
 
 .header {
   margin: auto;
