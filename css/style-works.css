@@ -88,6 +88,16 @@ body {
 .work-three {
   display: flex;
   padding: 15px;
+  border-top: 1px solid #1C1D20;
+  border-bottom: 1px solid #1C1D20;
+  transition: 0.3s;
+}
+
+.work-one:hover,
+.work-two:hover,
+.work-three:hover {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .work-image {
@@ -99,6 +109,7 @@ body {
 
 .work-info {
   padding: 15px;
+  padding-left: 50px;
 }
 
 .work-heading {
