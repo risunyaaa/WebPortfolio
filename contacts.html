@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/css/style-contacts.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <div class="wrapper">
+    <div class="head-wrapper">
       <header class="header">
         <a href="main.html" class="logo">Aleshkin</a>
 
@@ -29,55 +29,92 @@
 
     <main>
       <div class="main-wrapper">
-        <div class="contact-table">
-          <img src="\images\picgit.png" alt="" />
-          <div class="contact-us">
-            <div class="c_header">Get in touch</div>
-            <div class="contact-boxes">
-              <div class="box-one">
-                <div class="b_header">My socials</div>
-                <div class="box-text">https://github.com/risunyaaa</div>
-                <div class="box-text">telegram: @risunyaaa</div>
-                <div class="box-text">telegram: @risuwork</div>
-              </div>
-              <div class="box-two">
-                <div class="b_header">Contact with me</div>
-                <div class="box-text">risunyaaa@yandex.ru</div>
-              </div>
-            </div>
-            <div class="contact-bottom-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              molestiae id odio fugit? Commodi libero aperiam reprehenderit
-              repellat dignissimos impedit fugit atque. Asperiores id inventore
-              ipsa praesentium quae aperiam dignissimos!
-            </div>
-          </div>
-        </div>
+        <div class="main-header">
+          <div class="main-left-text">Let's make software together</div>
+          <div class="mail-logo"><image src="images/envelope.png"></image></div>
+         </div>
       </div>
+
+      <div class="contact-form">
+        <div class="send-form">
+
+          <div class="contact-question">
+            <div class="question-label">What is your name?</div>
+            <div class="question-field"><input type="text" placeholder="Andrey*"></div>
+            <div class="question-error">Please enter a valid name</div>
+          </div>
+
+         <div class="contact-question">
+            <div class="question-label">What is your email?</div>
+            <div class="question-field"><input type="text" placeholder="andrey@mail.com*"></div>  
+            <div class="question-error">Please enter a valid email</div>
+          </div>
+
+          <div class="contact-question">
+            <div class="question-label">What's the name of your organization?</div>
+            <div class="question-field"><input type="text" placeholder="Yandex, Avito, etc."></div>
+            <div class="question-error">Please enter a valid organization</div>
+          </div>
+
+          <div class="contact-question">
+            <div class="question-label">Your message</div>
+            <div class="question-field"><input type="text" placeholder="Hello Andrey, can we talk aboout ..."></div>
+            <div class="question-error">Please enter a valid text</div>
+          </div>
+          
+          <div class="question-button">
+            <button class="q-button"><a>Send it!</a></button>
+          </div>
+    
+        </div>
+
+        <div class="contact-details"> 
+          
+          <div class="details-group">
+            <div class="group-caption">Contact details</div>
+            <div class="group-info">risunya@yandex.ru</div>
+            <div class="group-info">+79312096709</div>
+          </div>
+
+          <div class="details-group">
+            <div class="group-caption">Socials</div>
+            <div class="group-block"><a href="#" class="group-info">Telegram</a></div>
+            <div class="group-block"><a href="#" class="group-info">LinkedIn</a></div>
+            <div class="group-block"><a href="#" class="group-info">GitHub</a></div>
+            <div class="group-block"><a href="#" class="group-info">VKontakte</a></div>
+          </div>
+
+        </div>
+
+      </div>
+
     </main>
-    |
+  
 
-    <footer>
-      <div class="footer-wrapper">
-        <div class="links-logos">
-          <div class="logo-one">
-            <a href="#"><image src="/images/fb.jpg"></image> </a>
+    <footer class="footer-wrapper">
+
+        <div class="wrapper-left-block">
+          <div class="footer-block">  
+            <div class="footer-caption">VERSION</div>
+            <div class="footer-info">2024 Edition</div>
           </div>
-
-          <div class="logo-two">
-            <a href="#"><image src="/images/Group.jpg"></image></a>
-          </div>
-
-          <div class="logo-three">
-            <a href="#"><image src="/images/insta.jpg"></image></a>
-          </div>
-
-          <div class="logo-four">
-            <a href="#"><image src="/images/Linkedin.jpg"></image></a>
+          <div class="footer-block">  
+            <div class="footer-caption">LOCAL TIME</div>
+            <div class="footer-info"><p id="time"></div>
           </div>
         </div>
-        <div class="copyright">Copyright ©2024 All rights reserved</div>
-      </div>
+
+        <div class="wrapper-right-block">
+          <div class="footer-block">  
+            <div class="footer-caption">SOCIALS</div>
+            <div class="footer-info">
+              <a class="footer-link" href="#">Telegram</a>
+              <a class="footer-link" href="#">LinkedIn</a>
+              <a class="footer-link" href="#">GitHub</a>
+              <a class="footer-link" href="#">VKontakte</a>
+            </div>
+          </div>
+        </div>
     </footer>
   </body>
   <script src="main.js"></script>

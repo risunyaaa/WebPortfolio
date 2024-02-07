@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');  
 
 html {
   scroll-behavior: smooth;
@@ -9,35 +9,29 @@ html {
 }
 
 body {
-  background: white;
-  color: #21243d;
+  background: #1C1D20;
+  color: white;
   display: block;
   margin: 0;
+  font-family: 'DM Sans', sans-serif;
 }
-
-.head-wrapper {
-  background-color:#edf7fa;
-  margin: 0;
-}
-
 
 .header {
+  padding-top: 15px;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  font-family: Heebo;
 }
 
 .logo {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color:  white;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 136.364% */
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -48,9 +42,8 @@ body {
 .navbar a {
   padding-left: 25px;
   text-decoration: none;
-  color: #000;
+  color: rgb(255, 255, 255);
   text-align: right;
-  font-family: Heebo;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -63,8 +56,9 @@ body {
   color: rgb(247, 108, 8);
 }
 
+
 .main-wrapper {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -76,18 +70,16 @@ body {
 }
 
 .about-me h1 {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: white;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 136.364% */
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .about-me h3 {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: white;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -96,22 +88,19 @@ body {
 }
 
 .p-image {
-  width: 420px;
-  height: 350px;
+  width: 350px;
   flex-shrink: 0;
   border-radius: 235px;
-  background: lightgray 50% / cover no-repeat;
 }
 
 .cv-button {
-  border: solid rgb(233, 82, 23);
+  border: solid rgb(247, 108, 8);
   border-radius: 3px;
   background: rgb(247, 108, 8);
   margin-top: 30px;
   width: 210px;
   height: 50px;
-  color: black;
-  font-family: Heebo;
+  color: white;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -120,28 +109,27 @@ body {
 }
 
 .cv-button:hover {
-  border: solid rgb(247, 108, 8);
+  border: solid grey;
   border-radius: 3px;
-  background: white;
+  background: grey; 
   color: black;
 }
 
 .posts {
-  background: #edf7fa;
+  background: #1C1D20;
   max-height: 500px;
 }
 
 .upper-wrapper {
   padding-top: 15px;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
 }
 
 .upper-wrapper a.left-text {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: white;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -150,8 +138,7 @@ body {
 
 .upper-wrapper a.link-blog {
   text-decoration: none;
-  color: var(--Secondry, #00a8cc);
-  font-family: Heebo;
+  color: #00a8cc;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -162,15 +149,14 @@ body {
 
 .rec-posts {
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
   max-height: 350px;
   display: flex;
   justify-content: space-between;
 }
 
 .rec-posts h1 {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: white;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -178,8 +164,7 @@ body {
 }
 
 .post-info {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: grey;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -187,8 +172,7 @@ body {
 }
 
 .rec-posts p {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: white;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -200,17 +184,18 @@ body {
   max-width: 600px;
   margin: 30px;
   padding: 30px;
-  background: white;
+  background: #27282d;
+  border: 2px #1C1D20;
+  border-radius: 10px;
 }
 
 .featured-wrapper {
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
 }
 
 .featured-wrapper a.left-text {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: white;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -219,7 +204,7 @@ body {
 
 .featured-section {
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
   display: block;
 }
 
@@ -231,6 +216,7 @@ body {
 }
 
 .work-image {
+  border-radius: 15px;
   width: 246px;
   height: 180px;
   flex-shrink: 0;
@@ -241,8 +227,7 @@ body {
 }
 
 .work-heading {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color:white;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -255,17 +240,15 @@ body {
 }
 
 .work-date {
-  color: black;
-  font-family: Heebo;
-  font-size: 18px;
+  color: grey;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 500;
   padding: 15px 15px 15px 0px;
 }
 
 .work-spec {
-  color: var(--Light, #8695a4);
-  font-family: Heebo;
+  color: grey;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -273,8 +256,7 @@ body {
 }
 
 .work-lorem {
-  color: var(--Dark-Color, #21243d);
-  font-family: Heebo;
+  color: white;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -283,31 +265,45 @@ body {
 }
 
 .footer-wrapper {
-  display: block;
-  margin-top: 150px;
-  padding-top: 25px;
-}
-
-.links-logos {
+  padding-top: 150px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  max-width: 1200px;
   display: flex;
-  margin: auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.logo-one,
-.logo-two,
-.logo-three,
-.logo-four {
-  padding: 15px;
+.wrapper-left-block {
+  display: flex;
+  width: 54%;
 }
 
-.copyright {
-  color: var(--Dark, #21243d);
-  text-align: center;
-  font-family: Heebo;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding: 15px;
+.wrapper-right-block {
+  width: 32%;
+  display: inline;
 }
+
+.footer-caption {
+  padding: 8px;
+  font-size: 0.7em;
+  color: grey;
+}
+
+.footer-info {
+  padding: 8px;
+}
+
+.footer-info p#time {
+  margin: 0;
+}
+
+.footer-link {
+  padding-right: 15px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link:hover {
+  color: rgb(231, 199, 157);
+} 
