@@ -187,6 +187,11 @@ body {
   background: #27282d;
   border: 2px #1C1D20;
   border-radius: 10px;
+  transition: 0.6s;
+} 
+
+.post-one:hover, .post-two:hover {
+  background-color: #303036;
 }
 
 .featured-wrapper {
@@ -213,6 +218,16 @@ body {
 .work-three {
   display: flex;
   padding: 15px;
+  border-top: 1px solid #1C1D20;
+  border-bottom: 1px solid #1C1D20;
+  transition: 0.5s;
+}
+
+.work-one:hover,
+.work-two:hover,
+.work-three:hover {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .work-image {
