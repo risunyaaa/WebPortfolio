@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');  
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  background: #1C1D20;
+  background: #1c1d20;
   color: white;
   display: block;
   margin: 0;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .header {
@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-  color:  white;
+  color: white;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
@@ -87,7 +87,7 @@ body {
 .post-two,
 .post-three,
 .post-four {
-  margin: 0 auto;;
+  margin: 0 auto;
   margin-top: 100px;
   max-width: 1000px;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');  
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  background: #1C1D20;
+  background: #1c1d20;
   color: white;
   display: block;
   margin: 0;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .header {
@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-  color:  white;
+  color: white;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
@@ -54,7 +54,7 @@ body {
 .navbar a:hover,
 .navbar a.active {
   color: rgb(247, 108, 8);
-} 
+}
 
 .main-wrapper {
   max-width: 1400px;
@@ -88,8 +88,8 @@ body {
 .work-three {
   display: flex;
   padding: 15px;
-  border-top: 1px solid #1C1D20;
-  border-bottom: 1px solid #1C1D20;
+  border-top: 1px solid #1c1d20;
+  border-bottom: 1px solid #1c1d20;
   transition: 0.3s;
 }
 
@@ -116,7 +116,7 @@ body {
   color: white;
   font-size: 30px;
   font-style: normal;
-  font-weight: 5  00;
+  font-weight: 5 00;
   line-height: normal;
   padding: 0;
 }
@@ -192,4 +192,4 @@ body {
 
 .footer-link:hover {
   color: rgb(231, 199, 157);
-} 
+}
