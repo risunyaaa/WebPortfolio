@@ -9,11 +9,6 @@ Technologies Used:
 
 *3. JavaScript (Vanilla)*
 
-*4. ESlinter*
-
-*5. Prettier*
-
-*6. Bootstrap*
 
 # Transition to React
 
@@ -31,6 +26,6 @@ With these advantages in mind, I made the decision to migrate to React for impro
 
 Feel free to explore the codebase to see how I implemented various features using these technologies.
 
-**LAST Commit on Feb 20, 2024**
+**LAST Commit on March 10, 2024**
 
-**LAST Update on Feb 20, 2024**
+**LAST Update on March 10, 2024**
