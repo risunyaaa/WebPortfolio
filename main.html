@@ -4,213 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="css/style-home.css"/>
-    <link rel="stylesheet" href="css/global.css"/>
-    <link rel="stylesheet" href="css/header.css">
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/site.webmanifest" />
-    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta
-      http-equiv="Cache-Control"
-      content="no-cache, no-store, must-revalidate"
-    />
     <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> 
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/global.css"/>
+    <link rel="stylesheet" href="styles/header.css"/>
+    <link rel="stylesheet" href="styles/profile.css"/>
+    <link rel="stylesheet" href="styles/featured-container.css"/>
   </head>
 
 
   
   <body>
-    <div class="head-wrapper">
+
       <header class="header">
         <a href="main.html" class="logo">Aleshkin</a>
 
-        <nav class="navbar">
-          <a href="main.html" class="active">Home</a>
-          <a href="works.html">Works</a>
-          <a href="blog.html">Blog</a>
-          <a href="contacts.html">Contact</a>
-        </nav>
+          <ul class="navbar">
+            <li><a href="works.html" class="underline">Works</a></li>
+            <li><a href="blog.html" class="underline">About</a></li>
+            <li><a href="contacts.html" class="underline">Contact</a></li>
+            <li style="padding: 0;"><button class="resume-button"><img src="./images/icons8-resume-30.png"><span class="resume-span">Resume</span></button></li>
+          </ul>
+          
       </header>
-    </div>
 
-    <!-- <main>
-      <div class="main-wrapper">
-        <section class="greetings">
-          <div class="about-me">
-            <h1>Hi, I am Andrey, Frontend Developer</h1>
-            <h3>
-              A passionate frontend developer with a creative approach to coding
-              and an inspiration to create engaging web applications using
-              cutting-edge technologies.
-            </h3>
-            <button class="cv-button">
-              <a>Download CV</a>
-            </button>
-          </div>
-
-          <img
-            src="images/designer.png"
-            alt="альтернативный текст"
-            class="p-image"
-          />
-        </section>
+      <main>
+        
+        <div class="profile-container">
+          <h3 class="profile-greetings"><span class="profile-span">👋 HELLO, I AM</span></h3>
+          <h1 class="profile-name">ALESHKIN ANDREY</h1>
+          <div class="profile-text">A freelance frontend developer and coding enthusiast at WebRNG. With an unwavering passion for transforming concepts into digital wonders, I specialize in building dynamic and intuitive user interfaces that elevate online experiences. From sleek designs to seamless interactions, I thrive on crafting unique and captivating solutions that make a lasting impact.</div>
+          <button class="profile-link">-> EXPLORE PROJECTS</button>
+          <div class="profile-picture"><img src="images/img12.jpg"></div>
       </div>
 
-      <div id="posts" class="container-fluid">
-        <div class="upper-wrapper">
-          <a class="left-text">Recent posts</a>
-          <a href="blog.html" class="link-blog">View all</a>
-        </div>
-        <div class="rec-posts">
-          <div class="post-one">
-            <h1>Making a web page with search engine</h1>
-            <div class="post-info">
-              <a>6 Feb 2024</a>
-              <a>|</a>
-              <a>Design, Frontend, Backend</a>
-            </div>
-            <p>
-              In a personal project, I created a backend system for organizing
-              and searching study notes by keywords. Using Node.js and
-              Express.js, I developed a server architecture handling user
-              authentication, data storage, and retrieval. This project honed my
-              backend skills.
-            </p>
+      <div class="featured-container">
+          <h1 class="featured-name">Featured Projects</h1>
+          <h3 class="featured-text">From simple templates to complex web layouts, my expertise in front-end development spans a wide spectrum. I take pride in crafting visually appealing and user-friendly interfaces that resonate with your brand's identity. <span style="font-size: 1.2em;">I've got you covered.</span></h3>
+          <div class="projects-container">
+              <div class="project-item-1">
+                <div class="project-img-wrapper"><img src="images/72.gif"></div>
+                <div class="project-text">
+                  <h1>Web Studio Development Package</h1>
+                  <h3>DESIGN & DEVELOPMENT</h3>
+                </div>
+              </div>
+              <div class="project-item-2">
+                <div class="project-img-wrapper"><img src="images/73.gif"></div>
+                <div class="project-text">
+                  <h1>Template Development</h1>
+                  <h3>DESIGN & DEVELOPMENT</h3>
+                </div>
+              </div>
+              <div class="project-item-3">
+                <div class="project-img-wrapper"><img src="images/74.gif"></div>
+                <div class="project-text">
+                  <h1>Development skillshow</h1>
+                  <h3>DESIGN & DEVELOPMENT</h3>
+                </div>
+              </div>
+              <div class="project-item-4">
+                <div class="project-img-wrapper"><img src="images/71.gif"></div>
+                <div class="project-text">
+                  <h1>Castro Design</h1>
+                  <h3>DESIGN & DEVELOPMENT</h3>
+                </div>
+              </div>
           </div>
-          <div class="post-two">
-            <h1>Making a web page for my portfolio</h1>
-            <div class="post-info">
-              <a>1 Feb 2024</a>
-              <a>|</a>
-              <a>Design, Frontend</a>
-            </div>
-            <p>
-              My web portfolio was crafted to showcase my projects and skills. I
-              explored other portfolios for inspiration, then chose
-              technologies: HTML, CSS, JavaScript, and Node.js. Crafting the
-              site was engaging and allowed me to express my individuality.
-            </p>
-          </div>
-        </div>
+          <button class="projects-link">Explore all works -></button>
       </div>
+      
+      </main>
 
-      <div class="featured">
-        <div class="featured-wrapper">
-          <a class="left-text">Featured Works</a>
-        </div>
-
-        <section class="featured-section">
-          <div class="work-one">
-            <image src="/images/Rectangle 30.jpg" class="work-image"></image>
-            <section class="work-info">
-              <a class="work-heading">Designing Dashboards</a>
-              <div class="work-properties">
-                <div class="work-date">2024</div>
-                <div class="work-spec">Design</div>
-              </div>
-              <div class="work-lorem">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam vel recusandae omnis qui? Quaerat ratione nulla ipsum
-                ex. Recusandae saepe minus quas distinctio doloribus cupiditate
-                dolor pariatur deleniti provident dolores.
-              </div>
-            </section>
-          </div>
-
-          <div class="work-two">
-            <image src="/images/Rectangle 30.jpg" class="work-image"></image>
-            <section class="work-info">
-              <a class="work-heading">Making a web page with search engine</a>
-              <div class="work-properties">
-                <div class="work-date">2024</div>
-                <div class="work-spec">Frontend | Backend</div>
-              </div>
-              <div class="work-lorem">
-                In a personal project, I created a backend system for organizing
-                and searching study notes by keywords. Using Node.js and
-                Express.js, I developed a server architecture handling user
-                authentication, data storage, and retrieval. This project honed
-                my backend skills.
-              </div>
-            </section>
-          </div>
-
-          <div class="work-three">
-            <image src="/images/pr1.jpg" class="work-image"></image>
-            <section class="work-info">
-              <a class="work-heading">Personal website</a>
-              <div class="work-properties">
-                <div class="work-date">2024</div>
-                <div class="work-spec">Frontend</div>
-              </div>
-              <div class="work-lorem">
-                My web portfolio was crafted to showcase my projects and skills.
-                I explored other portfolios for inspiration, then chose
-                technologies: HTML, CSS, JavaScript, and Node.js. Crafting the
-                site was engaging and allowed me to express my individuality.
-              </div>
-            </section>
-          </div>
-        </section>
-      </div>
-    </main>
-
-    <footer class="footer-wrapper">
-      <div class="wrapper-left-block">
-        <div class="footer-block">
-          <div class="footer-caption">VERSION</div>
-          <div class="footer-info">2024 Edition</div>
-        </div>
-        <div class="footer-block">
-          <div class="footer-caption">LOCAL TIME</div>
-          <div class="footer-info"><p id="time"></p></div>
-        </div>
-      </div>
-
-      <div class="wrapper-right-block">
-        <div class="footer-block">
-          <div class="footer-caption">SOCIALS</div>
-          <div class="footer-info">
-            <a class="footer-link" href="https://web.telegram.org/k/#@risunya"
-              >Telegram</a
-            >
-            <a
-              class="footer-link"
-              href="https://www.linkedin.com/in/andrey-aleshkin-41a600266/"
-              >LinkedIn</a
-            >
-            <a class="footer-link" href="https://github.com/risunyaaa"
-              >GitHub</a
-            >
-          </div>
-        </div>
-      </div>
-    </footer> -->
     <script src="main.js"></script>
   </body>
 </html>

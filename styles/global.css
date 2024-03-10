@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    font-size: calc(0.3em + 0.5vw);
+    box-sizing: border-box;
+    --grey-color: rgb(179, 179, 179);
+    --light-grey-color:rgb(249, 249, 249);
+    --black-color: black;
+    --white-color: white;   
+}
+
+body {
+    background-color: var(--light-grey-color);
+    transition: 0.3s;
+    width: 80%;
+    height: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+@media (min-width: 0px) {
+    :root {
+        font-size: calc(0.3em + 0.45vw);
+    }
+    .navbar {
+        display: none;
+    }
+ 
+}
+
+@media (min-width: 576px) {
+    :root {
+        font-size: calc(0.3em + 0.5vw);
+    }
+    
+}
+
+@media (min-width: 768px) {
+    :root {
+        font-size: calc(0.3em + 0.5vw);
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        font-size: calc(0.3em + 0.5vw);
+    }
+
+    .navbar {
+        display: flex;
+    }
+}
+@media (min-width: 1200px) {
+    :root {
+        font-size: calc(0.4em + 0.5vw);
+    }
+}
+
+@media (min-width: 1400px) {
+    :root {
+        font-size: calc(0.7em + 0.1vw);
+    }
+}
+
+* { 
+    text-decoration: none;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-family: "Comfortaa", sans-serif; 
+}
+
