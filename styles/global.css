@@ -4,11 +4,11 @@
 
 :root {
     font-size: calc(0.3em + 0.5vw);
-    box-sizing: border-box;
+    box-sizing: border-box;   
     --grey-color: rgb(179, 179, 179);
     --light-grey-color:rgb(249, 249, 249);
     --black-color: black;
-    --white-color: white;   
+    --white-color: white;
 }
 
 body {
@@ -71,7 +71,7 @@ body {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: black;
+    color: var(--black-color);
     list-style: none;
     font-family: "Comfortaa", sans-serif; 
 }

@@ -24,16 +24,25 @@
 //   });
 // });
 
-// // скрипт для отображения даты в footer
-// var now = new Date();
 
-// // получить часы и минуты
-// var hours = now.getHours();
-// var minutes = now.getMinutes();
+var theme = document.getElementById('theme-toggle');
 
-// // форматирование времени
-// var timeString =
-//   hours.toString().padStart(2, "0") + ":" + minutes.toString().padStart(2, "0");
-
-// // получить в html
-// document.getElementById("time").innerHTML = timeString;
+theme.onclick = () => {
+    let style = getComputedStyle(document.body)
+    let a = style.getPropertyValue('--black-color')
+    rootElement = document.documentElement;  
+    if (a === 'black') {  
+        console.log(1)
+      rootElement.style.setProperty('--grey-color', 'grey'),
+      rootElement.style.setProperty('--light-grey-color', 'black'),
+      rootElement.style.setProperty('--black-color', 'white'),
+      rootElement.style.setProperty('--white-color', 'grey') 
+    } else {
+        console.log(2)
+        rootElement.style.setProperty('--grey-color', 'rgb(179, 179, 179)'),
+        rootElement.style.setProperty('--light-grey-color', 'rgb(249, 249, 249)'),
+        rootElement.style.setProperty('--black-color', 'black'),
+        rootElement.style.setProperty('--white-color', 'white') 
+    }
+    
+}
