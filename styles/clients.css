@@ -1,0 +1,34 @@
+.clients-container {
+    padding: 0em;
+}
+
+.cients-name {
+    padding: 0 0 1em;
+}
+
+.clients-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: calc(1em + 1vh);
+}
+
+.client-img-item {
+    font-size: 1rem;
+    height: calc(10em + 10vh);
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.client-img-item img {
+    height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+.client-img-item img:hover {
+    filter: grayscale(0%);
+}
