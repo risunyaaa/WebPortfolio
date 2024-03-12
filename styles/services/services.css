@@ -1,0 +1,35 @@
+.services-name {
+    margin: 5em 0;
+    background: var(--white-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+}
+
+
+.services-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.services-item {
+    width: 100%;
+    height: calc(5em + 25vh);
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item-img{
+    width: 35%;
+    margin: 1em;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+}
+
+.services-item-text{
+    width: 65%;
+    margin: 1em;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+}
