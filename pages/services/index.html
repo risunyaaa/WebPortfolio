@@ -14,15 +14,18 @@
     <a href="../home" class="logo">Aleshkin</a>
 
       <ul class="navbar"> 
-        <li><a href="../works/" class="underline">Works</a></li>
-        <li><a href="../services/" class="underline">Services</a></li>
-        <li>
-          <label class="switch">
-            <input type="checkbox" id="theme-toggle">
-            <span class="slider round"></span>
-          </label>
+        <li class="navbar__item">
+          <a href="../works/" class="navbar__link  navbar__link_underline">Works</a>
         </li>
-        <li style="padding: 0;"><button class="resume-button"><img src="../../images/icons8-resume-30.png"><span class="resume-span">Resume</span></button></li>
+        <li class="navbar__item">
+          <a href="../services/" class="navbar__link  navbar__link_underline">Services</a>
+        </li>
+        <li style="padding: 0;" class="navbar__item">
+          <button class="resume-box">
+            <img src="../../images/icons8-resume-30.png">
+            <span class="resume-box__resume-span">Resume</span>
+          </button>
+        </li>
       </ul>
   </header>
 
@@ -55,14 +58,20 @@
         </div>
     </main>
 
-  <footer class="footer">
-    <a class="footer-name">© Created by Andrey Alsehkin, 2024</a>
-    <ul class="footer-links">
-      <li><a href="works.html" class="underline">GitHub</a></li>
-      <li>/</li>
-      <li><a href="blog.html" class="underline">StackOverflow</a></li>
-      <li>/</li>
-      <li><a href="https://stackoverflow.com/users/23581561" class="underline">X</a></li>
+    <footer class="footer">
+      <a class="footer__name">© Created by Andrey Alsehkin, 2024</a>
+      <ul class="footer-links">
+      <li class="footer__item">
+        <a href="works.html" class="footer__link_underline">GitHub</a>
+      </li>
+      <li class="footer__item">/</li>
+      <li class="footer__item">
+        <a href="blog.html" class="footer__link_underline">StackOverflow</a>
+      </li>
+      <li class="footer__item">/</li>
+      <li class="footer__item">
+        <a href="https://stackoverflow.com/users/23581561" class="footer__link_underline">X</a>
+      </li>
     </ul>
   </footer>
 </body>

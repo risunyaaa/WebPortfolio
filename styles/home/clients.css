@@ -1,9 +1,10 @@
 .clients-container {
+    width: 100%;
     padding: 0em;
     margin: 5em 0;
 }
 
-.cients-name {
+.clients-container__heading {
     padding: 0 0 1em;
 }
 
@@ -15,7 +16,7 @@
     border-radius: calc(1em + 1vh);
 }
 
-.client-img-item {
+.clients-row__item {
     font-size: 1rem;
     height: calc(10em + 10vh);
     width: 33%;
@@ -23,13 +24,13 @@
     justify-content: center;
 }
 
-.client-img-item img {
+.clients-row__item img {
     height: 100%;
     object-fit: contain;
     filter: grayscale(100%);
     transition: .3s;
 }
 
-.client-img-item img:hover {
+.clients-row__item img:hover {
     filter: grayscale(0%);
 }

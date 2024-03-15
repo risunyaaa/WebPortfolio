@@ -9,7 +9,7 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
  }
 
-.footer-name {
+.footer__name {
     font-weight: 1000;
   font-size: 1rem;
   padding: 0.5em 0.5em;
@@ -34,3 +34,33 @@
     justify-content: center;
     align-items: center;
 }
+
+.footer__link_underline {
+    text-decoration: none; 
+    position: relative; 
+  }   
+  
+  
+  .footer__link_underline:after {
+     position: absolute;
+     content: '';
+     height: 0.1em;
+     bottom: -0.2em; 
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     width: 0%;
+     background: white;
+   
+     -o-transition:.5s;
+     -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     transition:.5s;
+  }
+  
+  
+  .footer__link_underline:hover:after {
+   width: 100%;
+   background: var(--black-color);
+  }
