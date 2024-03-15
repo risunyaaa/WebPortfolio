@@ -24,25 +24,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-var theme = document.getElementById('theme-toggle');
-
-theme.onclick = () => {
-    let style = getComputedStyle(document.body)
-    let a = style.getPropertyValue('--black-color')
-    rootElement = document.documentElement;  
-    if (a === 'black') {  
-        console.log(1)
-      rootElement.style.setProperty('--grey-color', 'grey'),
-      rootElement.style.setProperty('--light-grey-color', 'black'),
-      rootElement.style.setProperty('--black-color', 'white'),
-      rootElement.style.setProperty('--white-color', 'grey') 
-    } else {
-        console.log(2)
-        rootElement.style.setProperty('--grey-color', 'rgb(179, 179, 179)'),
-        rootElement.style.setProperty('--light-grey-color', 'rgb(249, 249, 249)'),
-        rootElement.style.setProperty('--black-color', 'black'),
-        rootElement.style.setProperty('--white-color', 'white') 
-    }
-    
-}
