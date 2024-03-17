@@ -25,17 +25,29 @@ body {
     :root {
         font-size: calc(0.3em + 0.45vw);
     }
+
+    .services-item__paragraph {
+        display: none;
+    }
+    .services-item {
+        justify-content: space-around;
+    }
+    .services-item__list {
+        display: none;
+    }
     .navbar {
         display: none;
     }
- 
+
 }
 
 @media (min-width: 576px) {
     :root {
         font-size: calc(0.3em + 0.5vw);
     }
-    
+    .services-item__list {
+        display: block;
+    }
 }
 
 @media (min-width: 768px) {
@@ -52,6 +64,13 @@ body {
     .navbar {
         display: flex;
     }
+    .services-item__paragraph {
+        display: block;
+    }
+    .services-item {
+        justify-content: space-between;
+    }
+
 }
 @media (min-width: 1200px) {
     :root {
