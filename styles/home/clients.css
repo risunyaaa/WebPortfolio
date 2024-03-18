@@ -5,7 +5,12 @@
 }
 
 .clients-container__heading {
-    padding: 0 0 1em;
+    font-size: 2.2rem;
+    margin: 1em 0 0.5em 0;
+}
+
+.clients-container__text {
+    margin: 1em 1em 2em 1em;
 }
 
 .clients-row {

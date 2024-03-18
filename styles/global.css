@@ -39,6 +39,13 @@ body {
         display: none;
     }
 
+    .featured-container__text {
+        display: none;
+    }
+    .clients-container__text  {
+        display: none;
+    } 
+
 }
 
 @media (min-width: 576px) {
@@ -70,6 +77,12 @@ body {
     .services-item {
         justify-content: space-between;
     }
+    .featured-container__text {
+        display: block;
+    }
+    .clients-container__text  {
+        display: block;
+    } 
 
 }
 @media (min-width: 1200px) {

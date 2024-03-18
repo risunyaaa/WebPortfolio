@@ -1,5 +1,5 @@
 .profile-container {
-    margin: 5em 0;
+    margin: 5em 0 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,8 +39,15 @@
     padding: 1rem 1em;
     border-radius: 10em;
     background: black;
+    border: solid black;
     color: white;
     font-family: "Kode Mono", sans-serif; 
+    transition: .3s;
+}
+
+.button-link:hover {
+    background: white;
+    color: black;
 }
 
 
