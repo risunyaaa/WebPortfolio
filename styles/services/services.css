@@ -9,10 +9,12 @@
 .header-box__name {
     font-size: 2.2rem;
     padding: 0 0 0.5em;
+    text-align: center;
 }
 
 .header-box__text {
     font-size: 1.2em;
+    text-align: center;
 }
 
 .services-container {
