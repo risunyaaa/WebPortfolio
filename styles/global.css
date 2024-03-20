@@ -25,7 +25,9 @@ body {
     :root {
         font-size: calc(0.3em + 0.45vw);
     }
-
+    .ham-menu {
+        display: flex;
+    }
     .services-item__paragraph {
         display: none;
     }
@@ -83,6 +85,9 @@ body {
     .clients-container__text  {
         display: block;
     } 
+    .ham-menu {
+        display: none;
+    }
 
 }
 @media (min-width: 1200px) {
