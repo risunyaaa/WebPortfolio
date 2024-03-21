@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   // Получаем все элементы с классом "cv-button"
-  const downloadButtons = document.querySelectorAll(".resume-button");
+  const downloadButtons = document.querySelectorAll(".resume-box");
 
   // Добавляем обработчик события на клик по каждой кнопке
   downloadButtons.forEach(function (button) {
