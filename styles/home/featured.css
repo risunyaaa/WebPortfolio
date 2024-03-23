@@ -60,6 +60,10 @@
     flex-direction: column;
 }
 
+.projects-container__text:hover {
+    text-decoration: underline;
+}
+
 .projects-container__text * {
     padding: .5em 0 0 0;
 }

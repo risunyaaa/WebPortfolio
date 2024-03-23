@@ -47,6 +47,9 @@ body {
     .clients-container__text  {
         display: none;
     } 
+    .services-item__heading { 
+        align-self: center;
+    }
 
 }
 
@@ -56,6 +59,12 @@ body {
     }
     .services-item__list {
         display: block;
+    }
+    .services-item__heading {
+        align-self: auto;
+    }
+    .services-item__heading:hover {
+        align-self: auto;
     }
 }
 
